@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #f0f0f5 url(backgroundIMG) no-repeat 70% top;
+    background: #f0f0f5 url(${backgroundIMG}) no-repeat 70% top;
     -webkit-font-smoothing: antialiased
   }
 
